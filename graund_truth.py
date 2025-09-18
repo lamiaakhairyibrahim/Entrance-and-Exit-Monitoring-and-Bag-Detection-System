@@ -23,7 +23,7 @@ ground_truth_bags = []
 annotated_ids = set()
 
 # --- Part 2: Video Processing and Automated Annotation ---
-video_path = r'D:\job_ vision\door\src\all_project\data\video3.mp4'
+video_path = r'..\data\video3.mp4'
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
@@ -102,7 +102,7 @@ while True:
         break
 
 # --- Save Ground Truth Data ---
-output_dir = r'D:\job_ vision\door\src\all_project\data'
+output_dir = r'..\data'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
