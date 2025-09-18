@@ -134,12 +134,13 @@ md src
 ```
 cd src
 ```
-```
-cd Entrance-and-Exit-Monitoring-and-Bag-Detection-System
-```
+
 - 2. Clone the repository:
 ```
 git clone https://github.com/lamiaakhairyibrahim/Entrance-and-Exit-Monitoring-and-Bag-Detection-System.git
+```
+```
+cd Entrance-and-Exit-Monitoring-and-Bag-Detection-System
 ```
 - 3. Install the required libraries 
 ```
