@@ -63,13 +63,13 @@ cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
 
 # Open video file
-cap = cv2.VideoCapture(r'..\data\video3.mp4')
+cap = cv2.VideoCapture(r'../data\video3.mp4')
 
 # --- Video Writer setup ---
 frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = int(cap.get(cv2.CAP_PROP_FPS))
-output_path = r'..\data\output_video3_final_bag_region_lamiaa_predect.mp4'
+output_path = r'../data\output_video3_final_bag_region_lamiaa_predect.mp4'
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter(output_path, fourcc, fps, (frame_width, frame_height))
 # --------------------------

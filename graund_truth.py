@@ -102,7 +102,7 @@ while True:
         break
 
 # --- Save Ground Truth Data ---
-output_dir = r'..\data'
+output_dir = r'../data'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
