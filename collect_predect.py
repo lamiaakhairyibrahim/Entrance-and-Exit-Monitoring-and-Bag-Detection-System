@@ -179,7 +179,7 @@ while True:
         break
 
 # --- Save Prediction Data ---
-output_dir = r'..\data'
+output_dir = r'../data'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
