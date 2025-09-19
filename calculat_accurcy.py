@@ -3,8 +3,8 @@ from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, r
 
 # Specify the paths to your JSON files
 #  yolo_model_path = r"..\models\my_training\best.pt"
-ground_truth_file = r'../data\ground_truth_bags_auto.json'
-predictions_file = r'../data\predicted_bags.json'
+ground_truth_file = r'data\ground_truth_bags_auto.json'
+predictions_file = r'data\predicted_bags.json'
 
 def evaluate_model(gt_path, pred_path):
     """

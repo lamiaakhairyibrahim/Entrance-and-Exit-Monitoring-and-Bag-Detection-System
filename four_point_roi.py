@@ -1,7 +1,7 @@
 import cv2
 
 # Set the path to your video file
-VIDEO_PATH = r'../data\video3.mp4'
+VIDEO_PATH = r'data\video3.mp4'
 
 # Dimensions for the display window
 DISPLAY_WIDTH = 800
